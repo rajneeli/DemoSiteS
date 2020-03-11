@@ -24,7 +24,7 @@ namespace SiteDemo
         [SetUp]
         public void startBrowser()
         {
-            driver = new ChromeDriver(@"C:\Users\Ravi\Desktop\csharp.webdriver-master\SiteDemo\lib");
+            driver = new ChromeDriver(@"C:\Users\Raj\Desktop\csharp.webdriver-master\SiteDemo\lib");
             test();
             closeBrowser();
         }
